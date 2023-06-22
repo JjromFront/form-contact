@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./index.js"></script>
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+    <title>Formulario - Juan Romero</title>
+</head>
+
+<body>
+    <!-- contenedor global -->
+    <div class="container">
+
+        <!-- Navbar -->
+        <nav class="navbar">
+            <!-- Logo de la navbar -->
+            <div class="navbar-logo">L<span class="green-text">OG</span>O</div>
+
+            <!-- informacion de la navbar -->
+            <div class="navbar-information">
+                <a href="#">Home</a>
+                <a href="#">Plans</a>
+                <a href="#">hello@tales.com</a>
+        </nav>
+
+        <!-- main content -->
+        <main class="main ">
+            <div class="main-info">
+
+                <div class="info">
+                    <h2>Tus tareas jamas fueron tan <span class="green-text">faciles</span></h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas similique fuga sapiente accusamus
+                        iste excepturi fugit nostrum? Consectetur, porro? Numquam consectetur necessitatibus iure, fuga
+                        nam culpa at molestiae eligendi! Soluta!</p>
+                    <div class="buttons">
+                        <button class="contact-btn">Contactanos</button>
+                        <button class="about-btn">Conoce más</button>
+                    </div>
+                </div>
+                <div class="image">
+                    <img src="./assets/main-img.jfif" alt="Main image" class="main-img">
+                </div>
+            </div>
+        </main>
+
+        <!-- Form modal -->
+        <form class="form hidden">
+            <div class="contact-section">
+                <div class="form-container">
+                    <h2 class="form-title">Contáctanos ahora</h2>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" id="asunto" name="asunto" placeholder="Asunto:">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="descripcion" name="descripcion" placeholder="Descripcion:"></textarea>
+                        </div>
+                        <button type="submit" class="send-button">Enviar</button>
+                        <button type="menu" class="close-button"><img src="./assets/close-img.png" alt="close button" class="close-img"/></button>
+                    </form>
+                </div>
+                <div class="image-container">
+                    <img src="./assets/form-img.png" alt="Imagen" class="form-img">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
